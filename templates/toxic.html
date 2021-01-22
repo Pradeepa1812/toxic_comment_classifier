@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Toxic comment classification(LSTM)</title>
+<style>
+body{
+background:-webkit-linear-gradient(#f5f1c1,#c0f0e2,#f5f1c1);
+}
+</style>
+</head>
+<body>
+<center><h2><u>Toxic Comments Classification</u></h2></center>
+
+<br>
+<br>
+<form action="{{ url_for('predict') }}" method="POST">
+<center><label><i>Comments</i></label>:<input type="text" name="sample" size=30 placeholder="Enter your comment here" autocomplete="off">
+<input type="submit" value="Predict">
+</form>
+<br>
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<marquee>
+Done By Pradeepa
+</marquee>
+</body>
+
+</html>
